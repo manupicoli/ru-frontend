@@ -1,0 +1,23 @@
+.custom-navbar {
+    background: linear-gradient(90deg, green, red, yellow);
+    height: 50px;
+    font-size: 20px;
+    color: #fffefe;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-navbar .nav-item{
+    margin: 0 10px;
+}
+
+.custom-navbar .nav-link {
+    font-size: 20px;
+    color: #fffefe;
+    margin-right: 10px;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #818181;
+}
+

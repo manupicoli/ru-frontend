@@ -1,0 +1,20 @@
+/* reservasPage.css */
+
+.reservas-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.reservas-inner-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.reservas-menu-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}

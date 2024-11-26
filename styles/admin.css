@@ -1,0 +1,50 @@
+/* Admin.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.inner-container {
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex-direction: column;
+}
+
+.menu-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.menu-list ul {
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.menu-list li:hover {
+    background-color: #f1f1f1;
+}
